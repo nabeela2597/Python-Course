@@ -1,0 +1,23 @@
+1) Click on + option on the right side in terminal and select command prompt
+2) pip install pygame
+3) python -m pip install pygame
+
+Check Python Interpreter in VS Code
+    In the bottom-right corner of your VS Code window, check which Python interpreter is selected.
+    Ensure it matches the one where PYGAME is installed. You can verify this by running:
+    python -m pip show pygame
+To check: 
+    From your screenshot, it is clear that pygame is installed under Python version 3.13 (C:\Users\libaw\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13).
+    However, the Python interpreter you're using in VS Code might not match this installation.
+    7:11
+    In VS Code, press Ctrl+Shift+P (or Cmd+Shift+P on Mac) to open the Command Palette.
+    Search for and select Python: Select Interpreter.
+    Choose the interpreter path:
+    makefile
+    C:\Users\libaw\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13...
+    Restart VS Code after selecting the correct interpreter.
+
+1) pip install pygame on command prompt
+2) python -m pip show pygame
+3) ctrl+shift+p -> selected the interpreter based on the python version shown in terminal.
+4) restart if required. Then it must work
